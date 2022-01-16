@@ -1,6 +1,6 @@
 	name: GitHub-Profile-Summary-Cards
  
-on: #어떤 조건에 workflow를 trigger 시킬지 ex) push, pull_request ...
+on: # execute every 24 hours
   schedule: # execute every 24 hours - 24 시간마다 그래프 화면이 업데이트됨
     - cron: '* */24 * * *' 
   workflow_dispatch: #post request를 이용해 event 를 발생시킬수 있는 event occurs
